@@ -1,0 +1,129 @@
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background-dark {
+    display: block;
+    background-color: #5364CC;
+    overflow: hidden;
+    height: 100%;  
+    min-height: 70vh; 
+    z-index: -1;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 60px;
+    color: #373DAA;
+    text-align: center;
+    padding-top: 50px;
+    /*padding-bottom: 70px;*/
+}
+
+h2 {
+    display: block;
+    font-size: 25px;
+    font-style: italic;
+    color: #373DAA;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    text-align: center;
+    color: #5364CC;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h3 {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h4 {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+p {
+    color: #ffffff;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 20px;
+
+}
+#footer {
+    display: block;
+    background-color: #ffffff;
+    color: #5364CC;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    li {
+        display: block;
+        margin: auto;
+    }
+    p {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    li {
+        display: inline-block;
+        width: calc(100%/6);
+        width: 16.66667%;
+        text-align: center;
+        margin: auto;
+        overflow: hidden;
+    } 
+
+}
+/*@media only screen and (min-height: ) {
+
+}*/
